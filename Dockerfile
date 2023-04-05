@@ -1,4 +1,5 @@
-FROM elixir:alpine # Always last version, but alpine based
+# Always last version, but alpine based
+FROM elixir:alpine
 
 COPY . .
 
